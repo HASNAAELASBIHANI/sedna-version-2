@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-image:url(https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?cs=srgb&dl=pexels-vojtech-okenka-127162-392018.jpg&fm=jpg) ;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.gry {
+   
+    background-color: rgba(255, 255, 255 ,0.3);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px rgb(104, 102, 102) solid;
+   width: 90%;
+   height: 80PX;
+   margin: auto;
+    
+}
+.sedna{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+   
+
+}
+.div2 a {
+    
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+.div1 {
+    
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.su {
+    border-radius: 15px ;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+
+}
+.li {
+    border: 0px;
+    background-color: transparent;
+    color: aliceblue;
+   
+}
+.div3 button{
+    text-transform: uppercase;
+    font-size: 12px;
+      width: 100px;
+    height: 30px;
+}
+
+
+main {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    line-height: 50px;
+
+}
+.para1 {
+   font-size: 40px;
+}
+
+.div4 {
+
+ height: 200px;  
+ width: 25%; 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.d {
+    background-color: palevioletred;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.lm {
+    border: 1px palevioletred solid;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 200px; 
+    height: 40px;
+    color: palevioletred;
+    text-transform: uppercase;
+}
